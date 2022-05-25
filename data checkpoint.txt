@@ -1,0 +1,97 @@
+MySQL:
+
+
+
+
+
+MySQL (prononcer [maj.ɛs.ky.ɛl]) est un système de gestion de bases de données relationnelles (SGBDR).
+Il est distribué sous une double licence GPL et propriétaire. 
+Il fait partie des logiciels de gestion de base de données les plus utilisés au monde3, autant par le grand public (applications web principalement) que par des professionnels,
+en concurrence avec Oracle, PostgreSQL et Microsoft SQL Server.
+Son nom vient du prénom de la fille du cocréateur Michael Widenius, My (sv) (prononcer [my]). 
+SQL fait référence au Structured Query Language, le langage de requête utilisé.
+MySQL AB a été acheté le 16 janvier 2008 par Sun Microsystems pour un milliard de dollars américains.
+En 2009, Sun Microsystems a été acquis par Oracle Corporation, mettant entre les mains d'une même société les deux produits concurrents que sont Oracle Database et MySQL.
+ Ce rachat a été autorisé par la Commission européenne le 21 janvier 20105,6.
+Depuis mai 2009, son créateur Michael Widenius a créé MariaDB (Maria est le prénom de sa deuxième fille) pour continuer son développement en tant que projet Open Source.
+
+Caracteristiques:
+
+MySQL est un serveur de bases de données relationnelles SQL développé dans un souci de performances élevées en lecture,
+ ce qui signifie qu'il est davantage orienté vers le service de données déjà en place que vers celui de mises à jour fréquentes et fortement sécurisées.
+ Il est multi-thread et multi-utilisateur.
+
+C'est un logiciel libre, open source, développé sous double licence selon qu'il est distribué avec un produit libre ou avec un produit propriétaire.
+ Dans ce dernier cas, la licence est payante, sinon c'est la licence publique générale GNU (GPL) qui s'applique.
+ Un logiciel qui intègre du code MySQL ou intègre MySQL lors de son installation devra donc être libre ou acquérir une licence payante.
+ Cependant, si la base de données est séparée du logiciel propriétaire qui ne fait qu'utiliser des API tierces (par exemple en C# ou php), alors il n'y a pas besoin d'acquérir une licence payante MySQL.
+Ce type de licence double est utilisé par d'autres produits comme le framework de développement de logiciels Qt (pour les versions antérieures à la 4.5).
+
+
+
+
+
+
+
+Tout ce que vous devez savoir sur PostgreSQL
+
+
+PostgreSQL est un système de gestion de base de données relationnelle orienté objet puissant et open source qui est capable de prendre en charge en toute sécurité les charges de travail de données les plus complexes. 
+Alors que MySQL donne la priorité à l'évolutivité et aux performances, Postgres donne la priorité à la conformité et à l'extensibilité SQL.
+
+Les entreprises qui souhaitent maintenir un haut niveau d'intégrité et de personnalisation de leurs données choisissent généralement Postgres en raison de sa fiabilité, l'intégrité de ses données, 
+la robustesse de ses fonctionnalités, et parce qu’il fournit des solutions toujours performantes et innovantes.
+PostgreSQL fonctionne sur tous les principaux systèmes d'exploitation et est conforme à ACID depuis 2001.
+
+Postgres peut être téléchargé gratuitement et déployé sur du matériel standard, ou peut être exécuté dans le Cloud par le biais d'une variété de fournisseurs.
+ Bien que Postgres soit riche en fonctionnalités et adapté aux charges de travail OLAP, les performances de Postgres ont tendance à atteindre une limite lorsque les volumes de données dépassent plusieurs téraoctets.
+
+L’architecture:
+
+Contrairement aux autres bases de données transactionnelles, PostgreSQL est implémenté sur un seul serveur et n'est généralement pas conçu pour distribuer ses fonctions de stockage ou de calcul sur plusieurs nœuds.
+ Bien qu'il soit possible d'utiliser des techniques de regroupement, de réplication et de mutualisation pour faire évoluer votre cluster Postgres en termes de performances et de capacité supplémentaire, 
+ces solutions sont complexes et peu courantes. 
+De nombreuses entreprises choisissent d'augmenter la taille de Postgres en adaptant verticalement la base de données,
+ ce qui implique l'achat d'un serveur plus grand et plus puissant.
+Postgres est classé comme un système de gestion de base de données relationnelle-objet (ORDBMS).
+ Cela signifie que contrairement aux systèmes traditionnels de gestion de bases de données relationnelles (SGBDR), Postgres possède une architecture orientée objet.
+
+La plupart des SGBDR stockent des informations sur les données réelles contenues dans la base de données, telles que les tables.
+ Cependant, les ORDBMS tels que Postgres stockeront beaucoup plus d'informations, telles que des informations sur différents types de données, des fonctions SQL, et bien plus encore.
+ Postgres en particulier permet aux utilisateurs individuels d'éditer ces tables, leur permettant d'ajouter de nouveaux types de données, 
+et des fonctions SQL pour personnaliser la façon dont leurs données sont stockées et interagissent avec la base de données.
+
+Cette architecture rend Postgres extensible et donne aux utilisateurs la possibilité d'expérimenter de nouvelles applications de leurs données stockées sans toucher au code source.
+
+
+
+
+
+
+
+Microsoft SQL Server:
+
+
+
+Microsoft SQL Server est un système de gestion de base de données (SGBD) en langage SQL incorporant entre autres un SGBDR (SGBD relationnel ») développé et commercialisé par la société Microsoft.
+Il fonctionne sous les OS Windows et Linux (depuis mars 2016), mais il est possible de le lancer sur Mac OS via Docker, car il en existe une version en téléchargement sur le site de Microsoft.
+
+Définition - Que signifie SQL Server?
+SQL Server est le système de gestion de base de données relationnelle (RDBMS) de Microsoft. 
+Il s'agit d'une base de données complète conçue principalement pour concurrencer les concurrents Oracle Database (DB) et MySQL.
+
+Comme tous les principaux RBDMS, SQL Server prend en charge ANSI SQL, le langage SQL standard. Cependant, SQL Server contient également T-SQL, sa propre implémentation SQL.
+ SQL Server Management Studio (SSMS) (anciennement appelé Enterprise Manager) est l'outil d'interface principal de SQL Server et prend en charge les environnements 32 bits et 64 bits.
+
+SQL Server est parfois appelé MSSQL et Microsoft SQL Server.
+Initialement publié en 1989 en tant que version 1.0 par Microsoft, en collaboration avec Sybase, SQL Server et ses premières versions étaient très similaires à Sybase. Cependant, 
+le partenariat Microsoft-Sybase s'est dissous au début des années 1990 et Microsoft a conservé les droits sur le nom commercial de SQL Server. Depuis lors, Microsoft a publié des versions 2000, 2005 et 2008, qui proposent des options plus avancées et une meilleure sécurité.
+
+Exemples de fonctionnalités: prise en charge des types de données XML, vues de gestion dynamique (DMV), capacité de recherche en texte intégral et mise en miroir de bases de données.
+
+SQL Server est proposé en plusieurs éditions avec différents ensembles de fonctionnalités et options de tarification pour répondre à divers besoins des utilisateurs, notamment les suivants:
+
+Entreprise: Conçu pour les grandes entreprises ayant des exigences de données complexes, un entrepôt de données et des bases de données Web. Possède toutes les fonctionnalités de SQL Server et son prix de licence est le plus cher.
+Standard: Destiné aux petites et moyennes organisations. Prend également en charge le commerce électronique et l'entreposage de données.
+Groupe de travail: pour les petites organisations. Aucune taille ou limite d'utilisateur et peut être utilisé comme base de données principale pour les petits serveurs Web ou les succursales.
+Express: gratuit pour la distribution. Possède le moins de fonctionnalités et limite la taille de la base de données et les utilisateurs. Peut être utilisé en remplacement d'une base de données Access.
